@@ -2,27 +2,27 @@ body {
   text-align: center;
   background: radial-gradient(
     circle,
-    rgb(109, 14, 55) 0%,
-    rgba(214, 219, 226, 1) 100%
+    rgb(59, 88, 112) 0%,
+    rgb(134, 136, 137) 100%
   );
 }
 
 .Simon {
-  font-family: "Press Start 2P", cursive;
+  font-family: "Press Start 2P", serif;
   margin-bottom: 0px;
-  color: #342e52;
+  color: #d696c7;
 }
 
 #level-title {
-  font-family: "Press Start 2P", cursive;
-  font-size: 40px;
-  padding: 20px;
+  font-family: "Press Start 2P", serif;
+  font-size: 45px;
+  padding: 25px;
   margin-bottom: 0px;
-  color: #c0be32;
-  background: -webkit-linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
-   
+  color: #629d5c;
+  background: -webkit-linear-gradient(147deg, #679f5b 0%, #dfbe51 74%);
+
   -webkit-text-fill-color: transparent;
-  color: rgb(204, 97, 119);
+  color: rgb(165, 94, 109);
 }
 
 .score {
@@ -30,58 +30,58 @@ body {
   font-size: 1.5rem;
   padding-top: 20px;
   padding-bottom: 20px;
-  color: #922772;
+  color: #4b9096;
   margin-bottom: 0px;
 }
 p {
   padding-top: 30px;
   font-size: 1.2rem;
-  font-family: "Times New Roman", Times, serif;
-  word-spacing: 0.5rem;
-  font-weight: 800;
+  font-family: "Times New Roman", cursive, serif;
+  word-spacing: 0.525rem;
+  font-weight: 900;
 }
 .container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 15px;
-  max-width: 550px;
+  max-width: 500px;
 }
 
 .btn {
-  margin: 1.5 rem auto;
+  margin: 1.25 rem auto;
   padding: 0.5rem;
   height: 200px;
   width: 200px;
-  border: 0.325rem solid rgb(3, 39, 60);
+  border: 0.325rem solid rgb(25, 90, 137);
   border-radius: 30%;
 }
 
 .game-over {
-  background: rgb(115, 43, 43);
+  background: rgb(158, 83, 83);
   background: radial-gradient(
     circle,
-    rgba(115, 43, 43, 1) 0%,
-    rgb(1, 171, 92) 34%
+    rgb(84, 150, 182) 0%,
+    rgb(177, 133, 213) 34%
   );
 }
 
 .red {
-  background-color: #3a9b2d;
+  background-color: #5e785a;
 }
 
 .green {
-  background-color: rgb(70, 8, 129);
+  background-color: rgb(132, 219, 140);
 }
 
 .blue {
-  background-color: rgb(11, 228, 94);
+  background-color: rgb(149, 77, 154);
 }
 
 .yellow {
-  background-color: rgb(11, 1, 157);
+  background-color: rgb(93, 191, 218);
 }
 
 .pressed {
-  box-shadow: 0 0 1.25rem rgb(9, 136, 24);
-  background-color: rgb(42, 156, 156);
+  box-shadow: 0 0 1.5rem rgb(9, 136, 24);
+  background-color: rgb(33, 85, 125);
 }
