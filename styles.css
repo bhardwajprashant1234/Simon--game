@@ -2,15 +2,15 @@ body {
   text-align: center;
   background: radial-gradient(
     circle,
-    rgb(109, 14, 55) 0%,
-    rgba(214, 219, 226, 1) 100%
+    rgb(21, 2, 60) 0%,
+    rgb(149, 150, 151) 100%
   );
 }
 
 .Simon {
   font-family: "Press Start 2P", cursive;
   margin-bottom: 0px;
-  color: #342e52;
+  color: #401c40;
 }
 
 #level-title {
@@ -18,11 +18,11 @@ body {
   font-size: 40px;
   padding: 20px;
   margin-bottom: 0px;
-  color: #c0be32;
-  background: -webkit-linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
-   
+  color: #4ddc76;
+  background: -webkit-linear-gradient(147deg, #75c0fd 0%, #700000 74%);
+
   -webkit-text-fill-color: transparent;
-  color: rgb(204, 97, 119);
+  color: rgb(157, 53, 134);
 }
 
 .score {
@@ -30,13 +30,13 @@ body {
   font-size: 1.5rem;
   padding-top: 20px;
   padding-bottom: 20px;
-  color: #922772;
+  color: #6b39b7;
   margin-bottom: 0px;
 }
 p {
   padding-top: 30px;
   font-size: 1.2rem;
-  font-family: "Times New Roman", Times, serif;
+  font-family: Times, "Times New Roman", Georgia, serif;
   word-spacing: 0.5rem;
   font-weight: 800;
 }
@@ -52,25 +52,25 @@ p {
   padding: 0.5rem;
   height: 200px;
   width: 200px;
-  border: 0.325rem solid rgb(3, 39, 60);
+  border: 0.325rem solid rgb(60, 3, 54);
   border-radius: 30%;
 }
 
 .game-over {
-  background: rgb(115, 43, 43);
+  background: rgb(209, 21, 21);
   background: radial-gradient(
     circle,
-    rgba(115, 43, 43, 1) 0%,
-    rgb(1, 171, 92) 34%
+    rgb(209, 21, 21) 0%,
+    rgb(88, 187, 17) 34%
   );
 }
 
 .red {
-  background-color: #3a9b2d;
+  background-color: #187f8d;
 }
 
 .green {
-  background-color: rgb(70, 8, 129);
+  background-color: rgb(138, 28, 114);
 }
 
 .blue {
