@@ -10,7 +10,7 @@ body {
 .Simon {
   font-family: "Press Start 2P", cursive;
   margin-bottom: 0px;
-  color: #b79914;
+  color: #342e52;
 }
 
 #level-title {
@@ -18,11 +18,11 @@ body {
   font-size: 40px;
   padding: 20px;
   margin-bottom: 0px;
-  color: #fef2bf;
+  color: #c0be32;
   background: -webkit-linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
    
   -webkit-text-fill-color: transparent;
-  color: crimson;
+  color: rgb(204, 97, 119);
 }
 
 .score {
@@ -30,7 +30,7 @@ body {
   font-size: 1.5rem;
   padding-top: 20px;
   padding-bottom: 20px;
-  color: #af941d;
+  color: #922772;
   margin-bottom: 0px;
 }
 p {
@@ -66,7 +66,7 @@ p {
 }
 
 .red {
-  background-color: #f2f2f2;
+  background-color: #3a9b2d;
 }
 
 .green {
@@ -83,5 +83,5 @@ p {
 
 .pressed {
   box-shadow: 0 0 1.25rem rgb(9, 136, 24);
-  background-color: white;
+  background-color: rgb(42, 156, 156);
 }
