@@ -7,8 +7,8 @@ body {
 
 .Simon {
   font-family: "Press Start 2P", cursive;
-  margin-bottom: 0px;
-  color: #1d88af;
+  margin-bottom: 2px;
+  color: #2e5b6b;
 }
 
 #level-title {
@@ -16,19 +16,19 @@ body {
   font-size: 60px;
   padding: 50px;
   margin-bottom: 0px;
-  color: #fef2bf;
+  color: #b7a864;
   background: -webkit-linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
 
   -webkit-text-fill-color: transparent;
-  color: rgb(50, 20, 170);
+  color: rgb(68, 58, 111);
 }
 
 .score {
   font-family: "Press Start 2P", cursive;
   font-size: 5rem;
-  padding-top: 70px;
+  padding-top: 50px;
   padding-bottom: 20px;
-  color: #c7a305;
+  color: #6d643b;
   margin-bottom: 5px;
 }
 
@@ -52,7 +52,7 @@ p {
   padding: 0.5rem;
   height: 200px;
   width: 200px;
-  border: 0.325rem solid rgb(3, 39, 60);
+  border: 0.325rem solid rgb(94, 123, 140);
   border-radius: 30%;
 }
 
